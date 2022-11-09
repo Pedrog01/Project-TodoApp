@@ -8,4 +8,4 @@ const todoSchama = new mongoose.Schama({
     createdAt: {type: Date, default:Date.now}, 
 }) 
 
-module.exports = restful.module('todo', todoSchama)
+module.exports = restful.module('todo', todoSchama); 
